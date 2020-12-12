@@ -21,7 +21,7 @@ link_directories(
     PRIVATE
     adder
 )
-`
+
 add_subdirectory(adder)
 
 target_link_libraries(${APP} adder)
